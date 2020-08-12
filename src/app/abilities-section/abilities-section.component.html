@@ -1,0 +1,37 @@
+<h1>ABILITIES</h1>
+<div id="table-container">
+    <table id="ability-table">
+        <tr>
+            <td>&darr; &rarr; + HP</td>
+            <td>&darr; &rarr; + LK</td>
+            <td>&darr; &larr; + MP</td>
+            <td>&darr; &larr; + MK</td>
+            <td>&rarr; &darr; &rarr; + MP</td>
+            <td>&rarr; &darr; &rarr; + HK</td>
+        </tr>
+        <tr>
+            <td *ngFor ="let ability of abilitiesOne">{{ability}}</td>
+        </tr>
+        <tr>
+            <td>&larr; &darr; &rarr; + LP</td>
+            <td>&rarr; &darr; &larr; + MP</td>
+            <td>(Hold)&larr; &rarr; + MK</td>
+            <td>(Hold)&darr; &uarr; + HP</td>
+            <td>&rarr; &larr; &darr; &rarr; + LK</td>
+            <td>&darr; &rarr; &darr; &larr; + HK</td>
+        </tr>
+        <tr>
+            <td *ngFor ="let ability of abilitiesTwo">{{ability}}</td>
+        </tr>
+        
+    </table>
+</div>
+<table id="super-table">
+    <tr>
+        <th colspan="2">ULTIMATE COMBO</th>
+    </tr>
+    <tr>
+        <td>&uarr; &uarr; &darr; &darr; &larr; &rarr; &larr; &rarr; B A Start</td>
+        <td>Full Stack Development</td>
+    </tr>
+</table>
